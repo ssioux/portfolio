@@ -52,7 +52,7 @@ function Banner() {
                       freely create web site that are used in our daily lives
                     </p>
                     <button onClick={() => console.log("connect")}>
-                      Curriculum <Icon.FiletypePdf size={25} />
+                      Download <Icon.FiletypePdf size={25} /> _Cv
                     </button>
                   </div>
                 )}
