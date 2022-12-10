@@ -6,7 +6,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 function Banner() {
-  // console.log(Icon)
+  console.log("🚀 ~ file: Banner.jsx:4 ~ Icon", Icon);
 
   return (
     <section className="back-bg">
@@ -52,7 +52,7 @@ function Banner() {
                       freely create web site that are used in our daily lives
                     </p>
                     <button onClick={() => console.log("connect")}>
-                      Download <Icon.FiletypePdf size={25} /> _Cv
+                      Download Cv <Icon.Download size={25} />
                     </button>
                   </div>
                 )}

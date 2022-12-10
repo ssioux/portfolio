@@ -1,9 +1,8 @@
-import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import Home from "./components/Skills";
-import Proyects from "./components/Proyects";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -12,7 +11,8 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Proyects />
+      <Projects />
+      <Footer />
     </div>
   );
 }

@@ -10,7 +10,7 @@ function Skills() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -37,12 +37,12 @@ function Skills() {
                 <Carousel
                   responsive={responsive}
                   className="owl-carousel owl-theme skill-slider"
-                  additionalTransfrom={0}
                   arrows
                   autoPlay
                   autoPlaySpeed={3000}
-                  centerMode
-                  containerClass="container"
+                  centerMode={false}
+                  containerClass="container-with-dots"
+                  customTransition="all 1s linear"
                   dotListClass=""
                   draggable
                   focusOnSelect={false}
@@ -62,33 +62,7 @@ function Skills() {
                   sliderClass=""
                   slidesToSlide={1}
                   swipeable
-                  // arrows
-                  // autoPlay
-                  // autoPlaySpeed={3000}
-                  // centerMode={false}
-
-                  // containerClass="container-with-dots"
-                  // customTransition="all 1s linear"
-                  // dotListClass=""
-                  // draggable
-                  // focusOnSelect={false}
-                  // infinite
-                  // itemClass=""
-                  // keyBoardControl
-                  // minimumTouchDrag={80}
-                  // pauseOnHover
-                  // renderArrowsWhenDisabled={false}
-                  // renderButtonGroupOutside={false}
-                  // renderDotsOutside={false}
-                  // rewind={false}
-                  // rewindWithAnimation={false}
-                  // rtl={false}
-                  // shouldResetAutoplay
-                  // showDots={false}
-                  // sliderClass=""
-                  // slidesToSlide={1}
-                  // swipeable
-                  // transitionDuration={1000}
+                  transitionDuration={1000}
                 >
                   <div className="item">
                     <img src="/images/langs/react.png" alt="react" />

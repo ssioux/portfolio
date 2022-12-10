@@ -51,10 +51,10 @@ function NavBar() {
           <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
         </Nav>
         <span className="navbar-text">
-          <div className="social-icon">
-            <Link to="/linkedin" target="_blank"><img src={navIcon1} alt="linkin" /></Link>
+        <div className="social-icon">
+            <a href="https://www.linkedin.com/in/david-lázaro/" target="_blank"><img src={navIcon1} alt="linkin" /></a>
             <a href="https://github.com/ssioux" target="_blank"><img src={navIcon2} alt="git" /></a>
-            <a href="mailto:dlazaro7@gmail.com" target="_blank"><img src={navIcon3} alt="" /></a>
+            <a href="mailto:dlazaro7@gmail.com" target="_blank"><img src={navIcon3} alt="" /></a> 
           </div>
           <HashLink to='#connect'>
             <button className="vvd"><span>Download my CV</span></button>
