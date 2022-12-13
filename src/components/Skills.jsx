@@ -7,7 +7,7 @@ import cssImg from "../assets/images/langs/css.png"
 import expressImg from "../assets/images/langs/express.png"
 import htmlImg from "../assets/images/langs/html.png"
 import jsImg from "../assets/images/langs/js.png"
-import jwtImg from "../assets/images/langs/jwt.png"
+// import jwtImg from "../assets/images/langs/jwt.png"
 import mongodbImg from "../assets/images/langs/mongodb.png"
 import nodejsImg from "../assets/images/langs/nodejs.png"
 
