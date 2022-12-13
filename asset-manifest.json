@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6a060510.css",
+    "main.js": "/portfolio/static/js/main.f6f05a89.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/esChall-project.png": "/portfolio/static/media/esChall-project.0e4a3e9524d33844f57d.png",
+    "static/media/suicidefarm-project.png": "/portfolio/static/media/suicidefarm-project.4914860f65dac9b25ea5.png",
+    "static/media/mix-color.png": "/portfolio/static/media/mix-color.bea361cfef80fefc2d1e.png",
+    "static/media/back-bg.jpg": "/portfolio/static/media/back-bg.276be863cfcd40cf4724.jpg",
+    "static/media/ironworld-project.png": "/portfolio/static/media/ironworld-project.8a53ada7a97bf4633be4.png",
+    "static/media/front-bg.png": "/portfolio/static/media/front-bg.76d14047c4537503a9e3.png",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portfolio/index.html",
+    "static/media/git2.svg": "/portfolio/static/media/git2.21d56d7d1252173280fcd4770a9f9dc2.svg",
+    "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/email1.svg": "/portfolio/static/media/email1.b50cf1191ca3c61cc04fc85f079fcbce.svg",
+    "main.6a060510.css.map": "/portfolio/static/css/main.6a060510.css.map",
+    "main.f6f05a89.js.map": "/portfolio/static/js/main.f6f05a89.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a060510.css",
+    "static/js/main.f6f05a89.js"
+  ]
+}
