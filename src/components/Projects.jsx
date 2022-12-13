@@ -1,8 +1,8 @@
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import project1 from "../assets/img/esChall-project.png"
-
-import bg3 from "../assets/img/bg3.png";
+import project2 from "../assets/img/ironworld-project.png"
+import project3 from "../assets/img/suicidefarm-project.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,21 +14,26 @@ function Projects() {
       title: "es-Challenge",
       description: "Tourney generator",
       imgUrl: project1,
+      langs: "React, JWT, Nodejs, Express, JavaScript, MongoDB, Axios, html, css",
       live: "https://es-challenge.netlify.app/",
       gitServer: "https://github.com/ssioux/es-challenge-server.git",
       gitClient: "https://github.com/ssioux/es-challenge-client.git"
     },
     {
-      title: "es-Challenge",
-      description: "Tourney generator",
-      imgUrl: project1,
-      live: "https://es-challenge.netlify.app/"
+      title: "Iron World",
+      description: "Social - Job Hunt",
+      imgUrl: project2,
+      langs: "Nodejs, Express, JavaScript, MongoDB, HBS, html, css",
+      live: "https://ironworld.cyclic.app/",
+      gitServer: "https://github.com/borjacabello/IronWorld"
     },
     {
-      title: "es-Challenge",
-      description: "Tourney generator",
-      imgUrl: project1,
-      live: "https://es-challenge.netlify.app/"
+      title: "Suicide Farm",
+      description: "Shooter Game",
+      imgUrl: project3,
+      langs: "JavaScript, Jquery, canvas, html, css",
+      live: "https://ssioux.github.io/Suicide-Farm/",
+      gitServer: "https://github.com/ssioux/Suicide-Farm.git" 
     },
   ];
   return (
@@ -59,16 +64,18 @@ function Projects() {
                       {
                         projects.map((project, index) => {
                           return (
+                          
                             <Col size={12} sm={6} md={4} key={index}>
                             <div className="proj-imgbx">
-                              <img src={project.imgUrl} />
+                              <img src={project.imgUrl} alt="projectImg"/>
                               <div className="proj-txtx">
                                 <h4>{project.title}</h4>
-                                <span>{project.description}</span>
-                                <ul>                   
-                                {project.live && <li><a href={project.live} target="_blank">Live</a></li> }                               
-                                {project.gitServer && <li><a href={project.gitServer} target="_blank">GitHub-Server</a></li>}
-                                {project.gitClient &&  <li><a href={project.gitClient} target="_blank">GitHub-Client</a></li>}
+                                <h5>{project.description}</h5>
+                                <ul>
+                                {project.langs && <li>{project.langs}</li> }                    
+                                {project.live && <li><a href={project.live} target="_blank" rel="noreferrer">Live</a></li> }                               
+                                {project.gitServer && <li><a href={project.gitServer} target="_blank" rel="noreferrer">GitHub-Server</a></li>}
+                                {project.gitClient &&  <li><a href={project.gitClient} target="_blank" rel="noreferrer">GitHub-Client</a></li>}
                                 </ul>              
                               </div>
                             </div>

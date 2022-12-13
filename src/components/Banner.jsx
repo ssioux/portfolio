@@ -1,13 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-
-import * as Icon from "react-bootstrap-icons";
-
+import moon from "../assets/images/moon.png"
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 function Banner() {
-  console.log("🚀 ~ file: Banner.jsx:4 ~ Icon", Icon);
-
   return (
     <section className="back-bg">
       <Container>
@@ -21,7 +17,7 @@ function Banner() {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src="/images/logo.png" alt="Header Img" />
+                  <img src={moon} alt="animated-moon" />
                 </div>
               )}
             </TrackVisibility>
@@ -45,15 +41,16 @@ function Banner() {
                     <p>
                       My full name is David Lázaro Escolar. I am a Full Stack
                       Developer in love with this sector. With the aim of
-                      developing my passion I studied at ironhack. When I first
-                      came to this bootcamp, I had no knowledge of programming.
-                      But now with the help of strong aspirations and teachers,
-                      my level of knowledge has greatly increased and I can
-                      freely create web site that are used in our daily lives
+                      developing my passion I studied at ironhack, where i
+                      learn. I come from the world of construction, so I can
+                      build you a house as well as build you a website. in both
+                      you create a project, you create art. 
+                      I am always looking to improve my skills and constantly learn new things. I
+                      like teamwork and work environments where I can grow both
+                      professionally and personally. 
+                      If you want to get in touch
+                      with me, feel free to call me or send me a message!
                     </p>
-                    <button onClick={() => console.log("connect")}>
-                      Download Cv <Icon.Download size={25} />
-                    </button>
                   </div>
                 )}
               </TrackVisibility>

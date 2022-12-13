@@ -1,6 +1,16 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import reactImg from "../assets/images/langs/react.png"
+import bootstrapImg from "../assets/images/langs/bootstrap.png"
+import cssImg from "../assets/images/langs/css.png"
+import expressImg from "../assets/images/langs/express.png"
+import htmlImg from "../assets/images/langs/html.png"
+import jsImg from "../assets/images/langs/js.png"
+import jwtImg from "../assets/images/langs/jwt.png"
+import mongodbImg from "../assets/images/langs/mongodb.png"
+import nodejsImg from "../assets/images/langs/nodejs.png"
+
 function Skills() {
   const responsive = {
     superLargeDesktop: {
@@ -65,35 +75,35 @@ function Skills() {
                   transitionDuration={1000}
                 >
                   <div className="item">
-                    <img src="/images/langs/react.png" alt="react" />
+                    <img src={reactImg} alt="react" />
                     <h5>React.js</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/js.png" alt="js" />
+                    <img src={jsImg} alt="js" />
                     <h5>JS ES6</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/nodejs.png" alt="node" />
+                    <img src={nodejsImg} alt="node" />
                     <h5>node.js</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/mongodb.png" alt="mongo" />
-                    <h5>React.js</h5>
+                    <img src={mongodbImg} alt="mongo" />
+                    <h5>MongoDB</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/express.png" alt="express" />
+                    <img src={expressImg} alt="express" />
                     <h5>Express.js</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/html.png" alt="html" />
+                    <img src={htmlImg} alt="html" />
                     <h5>HTML5</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/css.png" alt="css" />
+                    <img src={cssImg} alt="css" />
                     <h5>CSS</h5>
                   </div>
                   <div className="item">
-                    <img src="/images/langs/bootstrap.png" alt="bootstrap" />
+                    <img src={bootstrapImg} alt="bootstrap" />
                     <h5>Bootstrap</h5>
                   </div>
                 </Carousel>
