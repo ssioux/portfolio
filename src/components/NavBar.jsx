@@ -94,7 +94,7 @@ function NavBar() {
             </div>
             <div>
               <a
-                href="https://drive.google.com/file/d/11etXQSzA0l61bmXAiOn9Fcdy927zrjPO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1tj9KK9Ivy0pBv0GCjcJK6_8riBFd1G4x/view?usp=sharing"
                 target="blank"
                 style={{ textDecoration: "none" }}
               >
