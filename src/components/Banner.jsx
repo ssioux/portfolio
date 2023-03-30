@@ -37,14 +37,12 @@ function Banner() {
                     }
                     id="text-fixed"
                   >
-                    <h1>{`Hi! I'm Sioux, Full Stack Web Developer`}</h1>
+                    <h1>Hi! I'm David Lázaro, Full Stack Web Developer</h1>
                     <p>
                       My full name is David Lázaro Escolar. I am a Full Stack
                       Developer in love with this sector. With the aim of
-                      developing my passion I studied at ironhack, where i
-                      learn. I come from the world of construction, so I can
-                      build you a house as well as build you a website. in both
-                      you create a project, you create art. 
+                      developing my passion I studied at ironhack, where I
+                      learned a lot. Problem solving skills (helping other classMates) & create a good and clean code with the help of our amazing teachers. These are some of the things that i learned aside from many more.
                       I am always looking to improve my skills and constantly learn new things. I
                       like teamwork and work environments where I can grow both
                       professionally and personally. 
