@@ -92,7 +92,7 @@ function NavBar() {
                 <img src={navIcon3} alt="email" />
               </a>
             </div>
-            <div>
+            {/* <div>
               <a
                 href="https://drive.google.com/file/d/1tj9KK9Ivy0pBv0GCjcJK6_8riBFd1G4x/view?usp=sharing"
                 target="blank"
@@ -104,7 +104,7 @@ function NavBar() {
                   </span>
                 </button>
               </a>
-            </div>
+            </div> */}
           </span>
         </Navbar.Collapse>
       </Container>
