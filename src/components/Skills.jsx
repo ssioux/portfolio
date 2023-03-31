@@ -12,68 +12,21 @@ import mongodbImg from "../assets/images/langs/mongodb.png"
 import nodejsImg from "../assets/images/langs/nodejs.png"
 
 function Skills() {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+  
 
   return (
     <div>
+
+      {/* TODO: add animation with my picture */}
       <section className="skill" id="skills">
         <div className="container">
           <div className="row">
             <div className="col-12">
+              <h2>Skills</h2>
               <div className="skill-bx wow zoomIn">
-                <h2>Skills</h2>
-                <p>
-                  I have learned different programming languages ​​so far and as
-                  far as my skills are concerned<br></br>
-                </p>
-                <Carousel
-                  responsive={responsive}
-                  className="owl-carousel owl-theme skill-slider"
-                  arrows
-                  autoPlay
-                  autoPlaySpeed={3000}
-                  centerMode={false}
-                  containerClass="container-with-dots"
-                  customTransition="all 1s linear"
-                  dotListClass=""
-                  draggable
-                  focusOnSelect={false}
-                  infinite
-                  itemClass=""
-                  keyBoardControl
-                  minimumTouchDrag={80}
-                  pauseOnHover
-                  renderArrowsWhenDisabled={false}
-                  renderButtonGroupOutside={false}
-                  renderDotsOutside={false}
-                  rewind={false}
-                  rewindWithAnimation={false}
-                  rtl={false}
-                  shouldResetAutoplay
-                  showDots={false}
-                  sliderClass=""
-                  slidesToSlide={1}
-                  swipeable
-                  transitionDuration={1000}
-                >
+                
+              
+               
                   <div className="item">
                     <img src={reactImg} alt="react" />
                     <h5>React.js</h5>
@@ -106,7 +59,7 @@ function Skills() {
                     <img src={bootstrapImg} alt="bootstrap" />
                     <h5>Bootstrap</h5>
                   </div>
-                </Carousel>
+               
               </div>
             </div>
           </div>

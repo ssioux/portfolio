@@ -1,16 +1,27 @@
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon3 from "../assets/img/email1.svg";
-import navIcon2 from "../assets/img/git2.svg";
+import navIcon1 from "../assets/social/in.png";
+import navIcon2 from "../assets/social/github.png";
+import navIcon3 from "../assets/social/email.png";
+
+import navIcon1Hover from "../assets/social/hoverIn.png";
+import navIcon2Hover from "../assets/social/githubhover.png";
+import navIcon3Hover from "../assets/social/hoveremail.png";
+
 import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import * as Icon from "react-bootstrap-icons";
-import siouxLogo from "../assets/images/siouxlogo.png"
+import siouxLogo from "../assets/images/siouxlogo.png";
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
+  // Social Icon States
+  const [icon1, setIcon1] = useState(navIcon1);
+  const [icon2, setIcon2] = useState(navIcon2);
+  const [icon3, setIcon3] = useState(navIcon3);
+
+  // Sticky Navbar when scrolls down
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -69,42 +80,44 @@ function NavBar() {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <div className="social-icon">
+            <div className="new-social">
               <a
                 href="https://www.linkedin.com/in/david-lázaro/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon1} alt="linkin" />
+                <img
+                  src={icon1}
+                  alt="linkedin"
+                  onMouseOver={() => setIcon1(navIcon1Hover)}
+                  onMouseOut={() => setIcon1(navIcon1)}
+                />
               </a>
               <a
                 href="https://github.com/ssioux"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon2} alt="git" />
+                <img
+                  src={icon2}
+                  alt="github"
+                  onMouseOver={() => setIcon2(navIcon2Hover)}
+                  onMouseOut={() => setIcon2(navIcon2)}
+                />
               </a>
               <a
                 href="mailto:dlazaro7@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon3} alt="email" />
+                <img
+                  src={icon3}
+                  alt="email"
+                  onMouseOver={() => setIcon3(navIcon3Hover)}
+                  onMouseOut={() => setIcon3(navIcon3)}
+                />
               </a>
             </div>
-            {/* <div>
-              <a
-                href="https://drive.google.com/file/d/1tj9KK9Ivy0pBv0GCjcJK6_8riBFd1G4x/view?usp=sharing"
-                target="blank"
-                style={{ textDecoration: "none" }}
-              >
-                <button className="vvd" id="curriculum">
-                  <span>
-                    Curriculum <Icon.Download />
-                  </span>
-                </button>
-              </a>
-            </div> */}
           </span>
         </Navbar.Collapse>
       </Container>
