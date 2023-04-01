@@ -1,16 +1,16 @@
 import navIcon1 from "../assets/social/in.png";
 import navIcon2 from "../assets/social/github.png";
-import navIcon3 from "../assets/social/email.png";
+import navIcon3 from "../assets/social/correo.png";
 
-import navIcon1Hover from "../assets/social/hoverIn.png";
+import navIcon1Hover from "../assets/social/hoverin.png";
 import navIcon2Hover from "../assets/social/githubhover.png";
-import navIcon3Hover from "../assets/social/hoveremail.png";
+import navIcon3Hover from "../assets/social/hovercorreo.png";
 
 import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import * as Icon from "react-bootstrap-icons";
+
 import siouxLogo from "../assets/images/siouxlogo.png";
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");

@@ -24,18 +24,18 @@
 
 /* writer letter */
 
-
-#curriculum{
+#curriculum {
+  border-bottom: 1px solid;
 
   font-weight: lighter;
   align-content: flex-end;
   height: 42px;
-  margin: 50px 0 0 330px ;
+  margin: 50px 0 0 330px;
   padding: 18px 5px;
-  border-color: #B8B8B8;
+  border-color: #b8b8b8;
   display: flex;
   align-items: center;
-
+  color: rgb(214, 163, 214);
 }
 
 @keyframes typing {
@@ -50,13 +50,10 @@
   }
 }
 
-
-
 .mini-logo img {
   width: 48%;
   margin-left: 30px;
 }
-
 
 /************ Custom Font ************/
 @font-face {
@@ -163,14 +160,14 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: rgb(149, 47, 189)
+  background-color: rgb(149, 47, 189);
 }
 nav.navbar a.navbar-brand {
   width: 9%;
 }
 
 .navbar-link img {
-width: 200px;
+  width: 200px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -189,13 +186,12 @@ span.navbar-text {
   align-items: center;
 }
 
-
-.new-social  {
+.new-social {
   display: flex;
   justify-content: space-around;
 }
 
-.new-social a img{
+.new-social a img {
   width: 50px;
 }
 
@@ -364,30 +360,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Css ************/
 .skill {
   background-image: url("./assets/img/mix-color.png");
-  background-size:cover;
+  background-size: cover;
   padding: 0 0 50px 0;
   position: relative;
 }
+
 .skill-bx {
   height: 100%;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124) -5.91%,  #bd742f 111.58%);
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124) -5.91%,
+    #bd742f 111.58%
+  );
   border-radius: 64px;
   text-align: center;
   padding: 80px 70px;
   display: flex;
-  flex-wrap: wrap ;
- 
+  flex-wrap: wrap;
 }
 .skill h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
 }
 .skill-slider {
   width: 80%;
@@ -395,11 +395,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-slider .item img {
-    width: 50%;
+  width: 50%;
   margin: 0 auto 15px auto;
 }
 .item {
-width: 20%;
+  width: 20%;
 }
 .background-image-left {
   height: calc(100vh);
@@ -414,17 +414,16 @@ width: 20%;
 .project {
   padding: 80px 0;
   position: relative;
-  
 
   background-size: cover;
 }
 .project h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -457,22 +456,21 @@ width: 20%;
   z-index: 0;
 }
 .project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #bd742f 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #bd742f 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-link.active::before {
-  
-    width: 100% !important;
+  width: 100% !important;
 }
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -494,7 +492,7 @@ width: 20%;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #bd742f 111.58%);
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #bd742f 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -509,15 +507,12 @@ width: 20%;
   width: 100%;
 }
 .proj-imgbx li {
- 
   margin-left: -10%;
   list-style: none;
 }
 
 .proj-imgbx a {
-  
   text-decoration: none;
-
 }
 .proj-txtx {
   position: absolute;
@@ -551,7 +546,7 @@ width: 20%;
   padding: 0 0 50px 0;
   border-radius: 30%;
   margin-top: -10%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #bd742f 111.58%);
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #bd742f 111.58%);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -560,18 +555,16 @@ width: 20%;
 .footer img {
   margin-top: 10%;
   width: 50%;
- 
 }
 
-.footer-social img{
+.footer-social img {
   margin-top: 10%;
-
 }
 
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
@@ -579,9 +572,8 @@ width: 20%;
 /************ Footer Social Icon ************/
 
 .footer-social-icon {
-
   display: inline-block;
- margin-top:100px;
+  margin-top: 100px;
 }
 .footer-social-icon a {
   width: 42px;
@@ -616,4 +608,17 @@ width: 20%;
 .footer-social-icon a:hover img {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
     hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+@media screen and (max-width: 768px) {
+  .skill {
+    background-image: none;
+    padding: 560px 0 0 0;
+    z-index: -1;
+  }
+
+  #curriculum {
+    color: rgb(218, 33, 218);
+    margin: 0 auto;
+  }
 }
