@@ -359,20 +359,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  background-image: url("./assets/img/mix-color.png");
+  
   background-size: cover;
   padding: 0 0 50px 0;
   position: relative;
 }
 
 .skill-bx {
+  width: 100%;
   height: 100%;
   background: linear-gradient(
     90.21deg,
     rgb(158, 72, 124) -5.91%,
     #bd742f 111.58%
   );
-  border-radius: 64px;
+  border-radius: 10px;
   text-align: center;
   padding: 80px 70px;
 }

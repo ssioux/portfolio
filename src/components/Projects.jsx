@@ -35,6 +35,15 @@ function Projects() {
 
 
   const projects = [
+  
+    {
+      title: "Iron World",
+      description: "Social - Job Hunt",
+      imgUrl: project2,
+      langs: "Nodejs, Express, JavaScript, MongoDB, HBS, html, css",
+      live: "https://ironworld.cyclic.app/",
+      gitServer: "https://github.com/borjacabello/IronWorld"
+    },
     {
       title: "es-Challenge",
       description: "Tourney generator",
@@ -43,14 +52,6 @@ function Projects() {
       live: "https://es-challenge.netlify.app/",
       gitServer: "https://github.com/ssioux/es-challenge-server.git",
       gitClient: "https://github.com/ssioux/es-challenge-client.git"
-    },
-    {
-      title: "Iron World",
-      description: "Social - Job Hunt",
-      imgUrl: project2,
-      langs: "Nodejs, Express, JavaScript, MongoDB, HBS, html, css",
-      live: "https://ironworld.cyclic.app/",
-      gitServer: "https://github.com/borjacabello/IronWorld"
     },
     {
       title: "Suicide Farm",
