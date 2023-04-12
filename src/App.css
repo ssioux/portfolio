@@ -536,6 +536,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
+.project-links {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in;
+}
+
+.project-links img {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+}
+
+.project-links img:hover {
+  width: 60%;
+  transition: 0.5s ease-in-out;
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;

@@ -1,13 +1,38 @@
 
+// react Hooks
+import {useState} from "react"
+// Bootstrap
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+
+// Proyect pictures
 import project1 from "../assets/img/esChall-project.png"
 import project2 from "../assets/img/ironworld-project.png"
 import project3 from "../assets/img/suicidefarm-project.png"
+
+// Project images
+import http from "../assets/images/http.png"
+import httpHover from "../assets/images/httpHover.png"
+
+import git from "../assets/images/git.png"
+import gitHover from "../assets/images/gitHover.png"
+
+import gitFront from "../assets/images/gitFront.png"
+import gitFrontHover from "../assets/images/gitFrontHover.png"
+
+
+
+
+// Web Animations
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
 function Projects() {
+
+  const [httpIMG, setHttpIMG] = useState(http);
+  const [gitServer, setGitServer] = useState(git);
+  const [gitClient, setGitClient] = useState(gitFront);
+
 
   const projects = [
     {
@@ -72,11 +97,13 @@ function Projects() {
                                 <h4>{project.title}</h4>
                                 <h5>{project.description}</h5>
                                 <ul>
-                                {project.langs && <li>{project.langs}</li> }                    
-                                {project.live && <li><a href={project.live} target="_blank" rel="noreferrer"> <img src="" alt="live-http" /> </a></li> }                               
-                                {project.gitServer && <li><a href={project.gitServer} target="_blank" rel="noreferrer">GitHub-Server</a></li>}
-                                {project.gitClient &&  <li><a href={project.gitClient} target="_blank" rel="noreferrer">GitHub-Client</a></li>}
-                                </ul>              
+                                {project.langs && <span>{project.langs}</span> }
+                                </ul>
+                                <div className="project-links">
+                                {project.live && <li><a href={project.live} target="_blank" rel="noreferrer"> <img src={httpIMG} alt="live-http"   onMouseOver={() => setHttpIMG(httpHover)} onMouseOut={() => setHttpIMG(http)}/> </a></li> }                               
+                                {project.gitServer && <li><a href={project.gitServer} target="_blank" rel="noreferrer"><img src={gitServer} alt="git-back" onMouseOver={() => setGitServer(gitHover)} onMouseOut={() => setGitServer(git)}/></a></li>}
+                                {project.gitClient &&  <li><a href={project.gitClient} target="_blank" rel="noreferrer"><img src={gitClient} alt="git-front" onMouseOver={() => setGitClient(gitFrontHover)} onMouseOut={() => setGitClient(gitFront)}/></a></li>}   
+                                </div>       
                               </div>
                             </div>
                           </Col>
