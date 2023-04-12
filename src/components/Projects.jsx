@@ -73,7 +73,7 @@ function Projects() {
                                 <h5>{project.description}</h5>
                                 <ul>
                                 {project.langs && <li>{project.langs}</li> }                    
-                                {project.live && <li><a href={project.live} target="_blank" rel="noreferrer">Live</a></li> }                               
+                                {project.live && <li><a href={project.live} target="_blank" rel="noreferrer"> <img src="" alt="live-http" /> </a></li> }                               
                                 {project.gitServer && <li><a href={project.gitServer} target="_blank" rel="noreferrer">GitHub-Server</a></li>}
                                 {project.gitClient &&  <li><a href={project.gitClient} target="_blank" rel="noreferrer">GitHub-Client</a></li>}
                                 </ul>              
