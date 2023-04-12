@@ -54,7 +54,7 @@ function Banner() {
                     </p>
                     <div>
                       <a
-                        href="https://drive.google.com/file/d/1tj9KK9Ivy0pBv0GCjcJK6_8riBFd1G4x/view?usp=sharing"
+                        href="https://drive.google.com/file/d/15Z0eBXOfyRqSsxAAD4OmG_48pW5HhRu3/view"
                         target="blank"
                         style={{ textDecoration: "none" }}
                       >
