@@ -74,7 +74,7 @@ function Skills() {
                   </div>
                   <div className="item">
                     <img src={jsImg} alt="js" />
-                    <h5>JS ES6</h5>
+                    <h5>JavaScript</h5>
                   </div>
                   <div className="item">
                     <img src={nodejsImg} alt="node" />
