@@ -359,10 +359,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  
+  margin-top: 40px;
   background-size: cover;
   padding: 0 0 50px 0;
   position: relative;
+  
 }
 
 .skill-bx {
@@ -376,10 +377,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   text-align: center;
   padding: 80px 70px;
+  box-shadow: rgba(228, 229, 230, 0.12) 0px 2px 4px 0px,
+rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
+
+ 
 }
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 .skill p {
   color: #b8b8b8;
