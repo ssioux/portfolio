@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b1257c0c.css",
+    "main.css": "/portfolio/static/css/main.fd3963bf.css",
     "main.js": "/portfolio/static/js/main.b7c5cdf2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/esChall-project.png": "/portfolio/static/media/esChall-project.0e4a3e9524d33844f57d.png",
@@ -32,12 +32,12 @@
     "static/media/git2.svg": "/portfolio/static/media/git2.21d56d7d1252173280fcd4770a9f9dc2.svg",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/email1.svg": "/portfolio/static/media/email1.b50cf1191ca3c61cc04fc85f079fcbce.svg",
-    "main.b1257c0c.css.map": "/portfolio/static/css/main.b1257c0c.css.map",
+    "main.fd3963bf.css.map": "/portfolio/static/css/main.fd3963bf.css.map",
     "main.b7c5cdf2.js.map": "/portfolio/static/js/main.b7c5cdf2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1257c0c.css",
+    "static/css/main.fd3963bf.css",
     "static/js/main.b7c5cdf2.js"
   ]
 }
