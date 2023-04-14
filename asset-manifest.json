@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b1257c0c.css",
-    "main.js": "/portfolio/static/js/main.266a01a1.js",
+    "main.js": "/portfolio/static/js/main.b7c5cdf2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/esChall-project.png": "/portfolio/static/media/esChall-project.0e4a3e9524d33844f57d.png",
     "static/media/suicidefarm-project.png": "/portfolio/static/media/suicidefarm-project.4914860f65dac9b25ea5.png",
@@ -33,11 +33,11 @@
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/email1.svg": "/portfolio/static/media/email1.b50cf1191ca3c61cc04fc85f079fcbce.svg",
     "main.b1257c0c.css.map": "/portfolio/static/css/main.b1257c0c.css.map",
-    "main.266a01a1.js.map": "/portfolio/static/js/main.266a01a1.js.map",
+    "main.b7c5cdf2.js.map": "/portfolio/static/js/main.b7c5cdf2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1257c0c.css",
-    "static/js/main.266a01a1.js"
+    "static/js/main.b7c5cdf2.js"
   ]
 }
