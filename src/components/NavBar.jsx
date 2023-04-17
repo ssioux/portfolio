@@ -63,6 +63,7 @@ function NavBar(props) {
             </Nav.Link>
 
             <Nav.Link
+               href="#credentials"
               className={
                 activeLink === "credentials" ? "active navbar-link" : "navbar-link"
               }

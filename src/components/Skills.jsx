@@ -31,7 +31,7 @@ function Skills() {
   };
   return (
     <div>
-      <section className="skill" id="skills">
+      <section className="skill">
      
         <div className="container">
           <div className="row">
