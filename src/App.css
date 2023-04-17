@@ -340,7 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.back-bg img {
+#animated-moon {
   padding: 260px 0 500px 0;
   animation: updown 20s linear infinite;
 }

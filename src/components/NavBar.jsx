@@ -12,7 +12,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 import siouxLogo from "../assets/images/siouxlogo.png";
-function NavBar() {
+function NavBar(props) {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
@@ -38,6 +38,7 @@ function NavBar() {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    props.setNavLinkOn(value)
   };
 
   return (
