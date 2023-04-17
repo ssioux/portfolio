@@ -5,8 +5,9 @@ import gitHub from "../assets/credentials/Git-Certificate.jpg";
 function Credentials() {
   return (
     <section className="credentials-main">
-      <h2>Credentials</h2>
-      <div className="crededentials-container">
+        <h2>Credentials</h2>
+      <div className="credentials-container">
+      
         <div className="credentials-pic">
           <img src={ironHack} alt="ironHack_certificate" />
         </div>

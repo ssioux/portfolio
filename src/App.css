@@ -359,8 +359,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Credentials Css ************/
 
 .credentials-main {
-  border: 1px solid red;
-  height: 400px;
+ 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.credentials-container {
+ 
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.credentials-pic {
+  margin: 10px;
+
+  width: 600px;
+}
+
+.credentials-pic img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(228, 229, 230, 0.12) 0px 2px 4px 0px,
+    rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
+}
+
+.credentials-main h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /************ Skills Css ************/
@@ -369,7 +401,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   padding: 0 0 50px 0;
   position: relative;
-  
 }
 
 .skill-bx {
@@ -384,15 +415,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 80px 70px;
   box-shadow: rgba(228, 229, 230, 0.12) 0px 2px 4px 0px,
-rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
-
- 
+    rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
 }
+
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 50px;
 }
+
 .skill p {
   color: #b8b8b8;
   font-size: 18px;
@@ -400,15 +431,18 @@ rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
 }
+
 .skill-slider {
   width: 100%;
   margin: 0 auto;
   position: relative;
 }
+
 .skill-slider .item img {
   width: 60%;
   margin: 0 auto 15px auto;
 }
+
 .background-image-left {
   height: calc(100vh);
   top: 28%;
