@@ -356,6 +356,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+/************ Credentials Css ************/
+
+.credentials-main {
+  border: 1px solid red;
+  height: 400px;
+}
+
 /************ Skills Css ************/
 .skill {
   margin-top: 40px;
