@@ -6,7 +6,7 @@ import TrackVisibility from "react-on-screen";
 import * as Icon from "react-bootstrap-icons";
 import NavBar from "./NavBar";
 import Skills from "./Skills";
-import Projects from "./Projects";
+import Credentials from "./Credentials";
 
 
 function Banner() {
@@ -82,6 +82,7 @@ function Banner() {
                       ) }
 
                       {navLinkOn === "skills" && <Skills/> }
+                      {navLinkOn === "credentials" && <Credentials/> }
                      
                     </div>
                   )}

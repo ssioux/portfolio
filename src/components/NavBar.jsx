@@ -61,6 +61,16 @@ function NavBar(props) {
             >
               Home
             </Nav.Link>
+
+            <Nav.Link
+              className={
+                activeLink === "credentials" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("credentials")}
+            >
+              Credentials
+            </Nav.Link>
+
             <Nav.Link
               href="#skills"
               className={
