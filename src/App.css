@@ -362,14 +362,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
   display: flex;
   flex-direction: column;
+  width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .credentials-container {
- 
-  width: 70%;
+
+  width: 100%;
   display: flex;
   justify-content: center;
   height: 100%;
@@ -377,7 +378,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .credentials-pic {
   margin: 10px;
-
   width: 640px;
 }
 
