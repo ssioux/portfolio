@@ -357,9 +357,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Credentials Css ************/
-
 .credentials-main {
- 
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -369,7 +367,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .credentials-container {
-
   width: 100%;
   display: flex;
   justify-content: center;
@@ -377,7 +374,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .credentials-pic {
-  margin: 10px;
+  margin: 20px;
   width: 640px;
 }
 
@@ -387,6 +384,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   box-shadow: rgba(228, 229, 230, 0.12) 0px 2px 4px 0px,
     rgba(188, 209, 218, 0.32) 0px 2px 16px 0px;
+  transition: .5s ease-out;
+}
+
+.credentials-pic img:hover {
+  transform: scale(1.2);
+  transition: .5s ease-in;
+  cursor: pointer;
 }
 
 .credentials-main h2 {
