@@ -31,13 +31,13 @@ function Skills() {
   };
   return (
     <div>
-      <section className="skill">
-     
+      <section className="skill" id="skills">
+     <h2>Skills</h2>
         <div className="container">
           <div className="row">
             <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+              
                 <Carousel
                   responsive={responsive}
                   className="owl-carousel owl-theme skill-slider"

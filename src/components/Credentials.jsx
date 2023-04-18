@@ -4,7 +4,7 @@ import gitHub from "../assets/credentials/Git-Certificate.jpg";
 
 function Credentials() {
   return (
-    <section className="credentials-main">
+    <section className="credentials-main" id="credentials">
         <h2>Credentials</h2>
       <div className="credentials-container">
       
