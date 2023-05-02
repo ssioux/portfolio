@@ -704,15 +704,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .project {
+    margin-top: 500px;
     position: relative;
-
     background-size: cover;
   }
 
   .skill {
     background-image: none;
-    padding: 560px 0 0 0;
-    z-index: -1;
+    padding: 380px 0 0 0;
+    z-index: 2;
   }
 
   #curriculum {
