@@ -11,14 +11,13 @@ import Credentials from "./Credentials";
 
 function Banner() {
   const [navLinkOn, setNavLinkOn] = useState("home");
-  console.log("🚀 ~ file: Banner.jsx:11 ~ Banner ~ navLinkOn:", navLinkOn);
   return (
     <>
       <NavBar setNavLinkOn={setNavLinkOn} />
       <section className="back-bg">
         <Container>
           <Row className="aligh-items-center">
-            <Col xs={12} md={6} xl={7}></Col>
+          <Col xs={12} md={6} xl={7}></Col>
             <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
                 {({ isVisible }) => (
