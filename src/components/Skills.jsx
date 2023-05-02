@@ -31,12 +31,12 @@ function Skills() {
   };
   return (
     <div>
-      <section className="skill" id="skills">
-     <h2>Skills</h2>
+      <section className="skill">
+     <h2 id="skills">Skills</h2>
         <div className="container">
-          <div className="row">
+          <div className="row" >
             <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+            <div className="skill-bx wow zoomIn"  >
               
                 <Carousel
                   responsive={responsive}
@@ -67,6 +67,7 @@ function Skills() {
                   slidesToSlide={1}
                   swipeable
                   transitionDuration={1000}
+                 
                 >
                   <div className="item">
                     <img src={reactImg} alt="react" />
