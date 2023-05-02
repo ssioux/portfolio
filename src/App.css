@@ -690,6 +690,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
   } */
 
+  .new-social {
+  margin: 0 auto;
+  }
+
   .credentials-container {
     flex-wrap: wrap;
   }
