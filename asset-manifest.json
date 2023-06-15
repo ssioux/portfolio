@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fd3963bf.css",
-    "main.js": "/portfolio/static/js/main.b7c5cdf2.js",
+    "main.css": "/portfolio/static/css/main.2cf5725f.css",
+    "main.js": "/portfolio/static/js/main.9e9b6a85.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/esChall-project.png": "/portfolio/static/media/esChall-project.0e4a3e9524d33844f57d.png",
     "static/media/suicidefarm-project.png": "/portfolio/static/media/suicidefarm-project.4914860f65dac9b25ea5.png",
     "static/media/back-bg.jpg": "/portfolio/static/media/back-bg.276be863cfcd40cf4724.jpg",
+    "static/media/IronHack_dev_certificate.png": "/portfolio/static/media/IronHack_dev_certificate.0ed3ae038a2913836f18.png",
     "static/media/ironworld-project.png": "/portfolio/static/media/ironworld-project.8a53ada7a97bf4633be4.png",
+    "static/media/Git-Certificate.jpg": "/portfolio/static/media/Git-Certificate.c96ecca101e10a7ca3a3.jpg",
     "static/media/front-bg.png": "/portfolio/static/media/front-bg.76d14047c4537503a9e3.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -32,12 +34,12 @@
     "static/media/git2.svg": "/portfolio/static/media/git2.21d56d7d1252173280fcd4770a9f9dc2.svg",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/email1.svg": "/portfolio/static/media/email1.b50cf1191ca3c61cc04fc85f079fcbce.svg",
-    "main.fd3963bf.css.map": "/portfolio/static/css/main.fd3963bf.css.map",
-    "main.b7c5cdf2.js.map": "/portfolio/static/js/main.b7c5cdf2.js.map",
+    "main.2cf5725f.css.map": "/portfolio/static/css/main.2cf5725f.css.map",
+    "main.9e9b6a85.js.map": "/portfolio/static/js/main.9e9b6a85.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd3963bf.css",
-    "static/js/main.b7c5cdf2.js"
+    "static/css/main.2cf5725f.css",
+    "static/js/main.9e9b6a85.js"
   ]
 }
